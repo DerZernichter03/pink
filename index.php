@@ -28,7 +28,7 @@
 	</form>
 
 	<?php
-		$ergebnis = $firstnumber * $secondnumber;
+		$ergebnis = $firstnumber + $secondnumber;
 		echo "<h1>Das Ergebnis ist:".$ergebnis."</h1>";	
 	?>
 
