@@ -1,3 +1,11 @@
-<?php
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
 
-echo "<h1>hallo</h1>";
+	<?php
+		echo "<h1>Hallo</h1>";
+	?>
+</body>
+</html>
