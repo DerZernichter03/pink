@@ -1,3 +1,6 @@
+<?php
+	$Name = "Fabio";
+?>
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -5,7 +8,7 @@
 
 <body>
 	<?php
-		echo "<h1>Hallo Name</h1>";
+		echo "<h1>Hallo ".$Name."</h1>";
 	?>
 </body>
 </html>
