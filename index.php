@@ -1,5 +1,8 @@
 <?php
-	$Name = "Timmel";
+	$name = "";
+	if(isset($_GET['name'])){
+		$name = $_GET['name'];
+	}
 ?>
 <html>
 <head>
@@ -8,7 +11,10 @@
 
 <body>
 	<?php
-		echo "<h1>Hallo ".$Name."</h1>";
+		echo "<h1>Hallo ".$name."</h1>";
 	?>
+	<form>
+		<input type="text" name="name">
+	</form>
 </body>
 </html>
